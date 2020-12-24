@@ -1,0 +1,171 @@
+body{
+    
+    background: url('https://wallpapercave.com/wp/wp2705148.jpg') no-repeat;
+    
+}
+
+h1, h3, h5{
+    color: #43eeea;
+    margin-left: 20px;
+}
+
+#nameadjustment,#adjustment2{
+    text-align: center;
+    
+}
+
+#nameadjustment span{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+}
+#adjustment2 span{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    
+}
+
+#wrapper{
+    position: relative;
+    width:  400px;
+    margin: 150px auto;
+    perspective: 2000px;
+    margin-bottom: 600px;
+}
+
+#imgarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(-360deg) translateZ(-500px);
+    animation: animate 25s steps(1000, end) infinite;
+    
+    
+}
+.singleimg{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 10px;
+    left:10px;
+}
+.singleimg img{
+    width: 300px;
+    height: 350px;
+    border: 5px solid white;
+    margin: 2px;
+}
+
+
+
+.singleimg.img1{
+    transform: rotateY(0deg) translateZ(500px);
+    
+}
+.singleimg.img2{
+    transform: rotateY(60deg) translateZ(500px);
+}
+.singleimg.img3{
+    transform: rotateY(120deg) translateZ(500px);
+}
+.singleimg.img4{
+    transform: rotateY(180deg) translateZ(500px);
+}
+.singleimg.img5{
+    transform: rotateY(240deg) translateZ(500px);
+}
+.singleimg.img6{
+    transform: rotateY(300deg) translateZ(500px);
+}
+
+
+
+@keyframes animate
+{
+    from{
+        transform: rotateY(0deg);
+    }
+    to
+    {
+        transform: rotateY(-360deg);
+    }
+}
+
+@media(min-width:300px) and (max-width:1400px){
+    body{
+    
+    background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm321-adj-27-fa.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=4dfa48a4844d179211cb4dc59f7e8fe1') no-repeat;
+    
+    
+    
+}
+    
+    #nameadjustment, #adjustment2{
+    text-align: center;
+    
+}
+    #nameadjustment span{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+}
+#adjustment2 span{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    
+}
+    #wrapper{
+    position: relative;
+    width:  300px;
+    margin: 100px auto;
+    perspective: 2000px;
+    margin-bottom: 300px;
+}
+
+#imgarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: rotateY(-360deg) translateZ(-300px);
+    animation: animate 25s steps(1000, end) infinite;
+    
+    
+}
+
+
+
+.singleimg{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 10px;
+    left:10px;
+}
+.singleimg img{
+    width: 200px;
+    height: 150px;
+    border: 5px solid white;
+    margin: 2px;
+}
+
+.singleimg.img1{
+    transform: rotateY(0deg) translateZ(300px);
+}
+.singleimg.img2{
+    transform: rotateY(60deg) translateZ(300px);
+}
+.singleimg.img3{
+    transform: rotateY(120deg) translateZ(300px);
+}
+.singleimg.img4{
+    transform: rotateY(180deg) translateZ(300px);
+}
+.singleimg.img5{
+    transform: rotateY(240deg) translateZ(300px);
+}
+.singleimg.img6{
+    transform: rotateY(300deg) translateZ(300px);
+}
+
+
+}

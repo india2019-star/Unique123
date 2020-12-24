@@ -1,0 +1,107 @@
+body{
+    background: url("https://1.bp.blogspot.com/-HMhnZ1iuvKI/XxFMoZt4SVI/AAAAAAAA1Fk/rw3H_bT0bjYTRj45YLypyXt055epDc9iACLcBGAsYHQ/s2560/xfx-wallpaer-2021-desktop.jpg") no-repeat;
+    
+}
+
+h1{
+    font-size: 100px;
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 100px;
+    
+}
+h3, #daycount, #hourcount, #minutecount, #secondcount{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#dayblock{
+    background-color: #ff4600;
+    opacity: 0.8;
+    align-content: center;
+    border-radius: 200px;
+}
+#hourblock{
+    background-color: #519d92;
+    opacity: 0.8;
+    align-content: center;
+    border-radius: 200px;
+    
+}
+
+#minuteblock{
+    background-color: #4ce560;
+    opacity: 0.8;
+    align-content: center;
+    border-radius: 200px;
+}
+
+#secondblock{
+    background-color: #bcef1b;
+    opacity: 0.8;
+    align-content: center;
+    border-radius: 200px;
+}
+
+hr{
+    width: 70%;
+    color: wheat;
+}
+
+@media (min-width:300px) and (max-width: 992px)
+{
+    body{
+    background: url("https://st2.depositphotos.com/3667099/5414/i/950/depositphotos_54140639-stock-photo-new-year-clock-at-midnight.jpg") no-repeat;
+    
+}
+
+    h1{
+        font-size: 50px;
+        font-style: italic;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #f07745;
+        
+    }
+    h3, #daycount, #hourcount, #minutecount, #secondcount{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#dayblock{
+    background-color: #ff4600;
+    opacity: 0.8;
+    align-content: center;
+    border-radius: 200px;
+    
+}
+#hourblock{
+    background-color: #519d92;
+    opacity: 0.8;
+    align-content: center;
+    border-radius: 200px;
+    
+}
+
+#minuteblock{
+    background-color: #4ce560;
+    opacity: 0.8;
+    align-content: center;
+    border-radius: 200px;
+}
+
+#secondblock{
+    background-color: #bcef1b;
+    opacity: 0.8;
+    align-content: center;
+    border-radius: 200px;
+}
+
+    
+}
