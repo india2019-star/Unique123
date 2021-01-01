@@ -91,10 +91,10 @@ h1, h3, h5{
     }
 }
 
-@media(min-width:300px) and (max-width:1400px){
+@media(min-width:300px) and (max-width:992px){
     body{
     
-    background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm321-adj-27-fa.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=4dfa48a4844d179211cb4dc59f7e8fe1') no-repeat;
+    background: url('https://wallpapercave.com/wp/wp7891511.jpg') no-repeat;
     
     
     
